@@ -25,6 +25,10 @@ export class Task extends Record<Task> {
   })
   public subtasks: Collection<Task>;
   
+  @Transaction
+  public async transactionAction() {
+  
+  }
   
 }
 
